@@ -1,1 +1,132 @@
-/* Write your CSS here! */
+body {
+	font-size: 11pt; /* default for page */
+	font-family: 'Verdana', sans-serif;
+	/* font-family: 'Georgia', serif; */
+	color: #333; /* off-black default for text */
+	background-color: #fff; /* shorthand for #ffffff */
+	height: 100vh; /* 100% of viewport height */
+	width: 100vw; /* 100% of viewport width */
+	margin: 8px; /* set this in other elements instead */
+	padding: 0px; /* ditto */
+	box-sizing: border-box; /* this just overrides a browser default that can affect layout */
+}
+
+header {
+	/* TODO: specify different color for text */
+	/* TODO: specify different background-color */
+	/* OPTIONAL: center text within header */
+	/* TODO: set the width to 100% */
+	/* OPTIONAL: specify height if you want (otherwise it will be auto) */
+	/* TODO: set padding to keep <h1> away from edges */
+	color: red);
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+main {
+	/* TODO: set margins (and perhaps width) according to desired behavior -- see instructions for options */
+	max-width: 800px;
+	margin: 30px auto; /* top & bottom, left & right */
+}
+
+section {
+	/* TODO: set defaults for all sections - see instructions */
+	/* Note that any differences will be handled with IDs & classes */
+	border-left: 10px solid rgb(12, 12, 12); /* one way to handle left only */
+	padding: 0px 0px 0px 15px; /* The other way to handle left only */
+	margin: 30px 0px;
+}
+
+footer {
+	/* TODO: specify background-color, height, padding, text alignment, etc. as desired */
+	color: white;
+	text-align: center;
+	background-color: rgb(39, 21, 199);
+	width: 100%;
+	padding: 10px 20px;
+}
+
+#mainHeading{
+	/* TODO: make adjustments to font or text to override existing styling */
+	color: red;
+	font-size: 2.5rem;
+	/* text-transform: uppercase; */
+	letter-spacing: 6px;
+	display: block; /* adjusts kerning, or space between letters */
+}
+
+p {
+	/* TODO: Specify bottom margin to adjust line spacing if */
+	margin-bottom: 20px;
+}
+
+li {
+	/* TODO: specify bottom margin to adjust line spacing */
+	margin-bottom: 6px;
+}
+
+
+/** IDs - for one unique element only **/
+
+#box-section {
+	/* TODO: Give this boxy section its own background-color */
+	/* TODO: Override section border property */
+	/* TODO: Override section padding property */
+	background-color: rgb(167, 161, 159);
+	border: 4px solid rgb(241, 64, 9);
+	padding: 15px;
+	margin: 30px 80px; /* keep same top & bottom as <section> but add left & right */
+	
+}
+
+#list-heading {
+	/* TODO: Make heading large using rem unit */
+	/* TODO: Make font-weight bold */
+	/* OPTIONAL: Change color of text */
+	/* TODO: Adjust top margin to pull it closer to top of box */
+	font-size: 1.2rem; /* 120% relative to default size */
+	font-weight: bold;
+	color: rgb(8, 8, 8);
+	margin: 8px;
+}
+
+#copyright {
+	/* TODO: change size to be smaller than default, using rem unit */
+	font-size: 0.85rem;
+}
+
+
+/** CLASSES - for multiple elements **/
+
+.float-right {
+	/* TODO: add float property */
+	/* TODO: adjust left margin */
+	float: right;
+	margin-left: 20px;
+}
+
+.img-sm {
+	/* TODO: limit height */
+	max-height: 120px;
+}
+
+.img-md {
+	/* TODO: limit height (but allow more than img-sm class) */
+	max-height: 240px;
+}
+
+.img-lg {
+	/* TODO: set width to fill page */
+	width: 100%; 
+}
+
+.img-border {
+	/* TODO: define a border to be applied to some but not all images */
+	border: 2px rgb(223, 17, 17) solid;
+}
+
+.funParagraph{
+	color: green;
+}
