@@ -52,8 +52,9 @@ footer {
 	/* TODO: make adjustments to font or text to override existing styling */
 	color: red;
 	font-size: 2.5rem;
-	text-transform: uppercase;
-	letter-spacing: 6px; /* adjusts kerning, or space between letters */
+	/* text-transform: uppercase; */
+	letter-spacing: 6px;
+	display: block; /* adjusts kerning, or space between letters */
 }
 
 p {
